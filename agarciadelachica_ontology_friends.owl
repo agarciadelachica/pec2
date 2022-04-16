@@ -1,0 +1,1257 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/ángel/ontologies/2022/3/friends"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/ángel/ontologies/2022/3/friends">
+    <Prefix name="" IRI="http://www.semanticweb.org/ángel/ontologies/2022/3/friends"/>
+    <Prefix name="dc" IRI="http://purl.org/dc/elements/1.1/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="swrl" IRI="http://www.w3.org/2003/11/swrl#"/>
+    <Prefix name="swrlb" IRI="http://www.w3.org/2003/11/swrlb#"/>
+    <Prefix name="terms" IRI="http://purl.org/dc/terms/"/>
+    <Prefix name="friends" IRI="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <Literal xml:lang="en">1.0.0</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <Literal xml:lang="en">Friends TV Show ontology</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:title"/>
+        <Literal xml:lang="en">The Friends ontology</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="terms:created"/>
+        <Literal xml:lang="en">April 2022</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="terms:creator"/>
+        <Literal xml:lang="en">Ángel García de la Chica Herrera</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="terms:license"/>
+        <IRI>http://creativecommons.org/licenses/by/2.0/</IRI>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal xml:lang="en">Author: Angel Garcia de la Chica Herrera</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="#Actors"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Characters"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Creators"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Directors"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Episodes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Friends"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Main_actor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Main_characters"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Parent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Places"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Producers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Professional"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Professions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Relationship"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Screenwriter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Seasons"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Secondary_actor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Secondary_characters"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sentimental"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sibling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Special_guest"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#belongTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAppeared"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasCreated"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasJob"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPlayed"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasRelationship"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasStudiedIn"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#duration"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#episodes"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasChild"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasDegree"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#title"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#year"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Actor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Brad_Pitt"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bruce_Willis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CentralPerk"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chandler_Bing"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cook"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Couple"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Courteney_Cox"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Coworkers"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#David_Crane"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#David_Schwimmer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Episode_001"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Episode_236"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Gary_Halvorson"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Gunther"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IT_procurement_manager"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Institute"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#James_Michael_Tyler"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Jennifer_Aniston"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Joey_Tribbiani"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Julia_Roberts"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lisa_Kudrow"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Marta_Kauffman"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Masseuse"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Matt_LeBlanc"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Matthew_Perry"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Monica_Geller"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Paleontologist"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Phoebe_Buffay"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rachel_Green"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Roommates"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ros_Geller"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sean_Penn"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Season_01"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Season_02"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Season_03"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Season_04"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Season_05"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Season_06"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Season_07"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Season_08"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Season_09"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Season_10"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#University"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Waitress"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dc:title"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="terms:created"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="terms:creator"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="terms:license"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="rdfs:sameAs"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="rdfs:title"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="owl:versioninfo"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Directors"/>
+        <Class IRI="#Creators"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Friends"/>
+        <Class IRI="#Relationship"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Main_actor"/>
+        <Class IRI="#Actors"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Main_characters"/>
+        <Class IRI="#Characters"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Parent"/>
+        <Class IRI="#Relationship"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Producers"/>
+        <Class IRI="#Creators"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Professional"/>
+        <Class IRI="#Relationship"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Screenwriter"/>
+        <Class IRI="#Creators"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Secondary_actor"/>
+        <Class IRI="#Actors"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Secondary_characters"/>
+        <Class IRI="#Characters"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sentimental"/>
+        <Class IRI="#Relationship"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sibling"/>
+        <Class IRI="#Relationship"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Special_guest"/>
+        <Class IRI="#Actors"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Main_actor"/>
+        <Class IRI="#Secondary_actor"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Main_actor"/>
+        <Class IRI="#Special_guest"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Main_characters"/>
+        <Class IRI="#Secondary_characters"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Secondary_actor"/>
+        <Class IRI="#Special_guest"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Professions"/>
+        <NamedIndividual IRI="#Actor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Special_guest"/>
+        <NamedIndividual IRI="#Brad_Pitt"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Special_guest"/>
+        <NamedIndividual IRI="#Bruce_Willis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Places"/>
+        <NamedIndividual IRI="#CentralPerk"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Main_characters"/>
+        <NamedIndividual IRI="#Chandler_Bing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Professions"/>
+        <NamedIndividual IRI="#Cook"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sentimental"/>
+        <NamedIndividual IRI="#Couple"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Main_actor"/>
+        <NamedIndividual IRI="#Courteney_Cox"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Professional"/>
+        <NamedIndividual IRI="#Coworkers"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Producers"/>
+        <NamedIndividual IRI="#David_Crane"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Main_actor"/>
+        <NamedIndividual IRI="#David_Schwimmer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Episodes"/>
+        <NamedIndividual IRI="#Episode_001"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Episodes"/>
+        <NamedIndividual IRI="#Episode_236"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Directors"/>
+        <NamedIndividual IRI="#Gary_Halvorson"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Secondary_characters"/>
+        <NamedIndividual IRI="#Gunther"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Professions"/>
+        <NamedIndividual IRI="#IT_procurement_manager"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Places"/>
+        <NamedIndividual IRI="#Institute"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Secondary_actor"/>
+        <NamedIndividual IRI="#James_Michael_Tyler"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Main_actor"/>
+        <NamedIndividual IRI="#Jennifer_Aniston"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Main_characters"/>
+        <NamedIndividual IRI="#Joey_Tribbiani"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Special_guest"/>
+        <NamedIndividual IRI="#Julia_Roberts"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Main_actor"/>
+        <NamedIndividual IRI="#Lisa_Kudrow"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Screenwriter"/>
+        <NamedIndividual IRI="#Marta_Kauffman"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Professions"/>
+        <NamedIndividual IRI="#Masseuse"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Main_actor"/>
+        <NamedIndividual IRI="#Matt_LeBlanc"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Main_actor"/>
+        <NamedIndividual IRI="#Matthew_Perry"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Main_characters"/>
+        <NamedIndividual IRI="#Monica_Geller"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Professions"/>
+        <NamedIndividual IRI="#Paleontologist"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Main_characters"/>
+        <NamedIndividual IRI="#Phoebe_Buffay"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Main_characters"/>
+        <NamedIndividual IRI="#Rachel_Green"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Friends"/>
+        <NamedIndividual IRI="#Roommates"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Main_characters"/>
+        <NamedIndividual IRI="#Ros_Geller"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Special_guest"/>
+        <NamedIndividual IRI="#Sean_Penn"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Seasons"/>
+        <NamedIndividual IRI="#Season_01"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Seasons"/>
+        <NamedIndividual IRI="#Season_02"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Seasons"/>
+        <NamedIndividual IRI="#Season_03"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Seasons"/>
+        <NamedIndividual IRI="#Season_04"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Seasons"/>
+        <NamedIndividual IRI="#Season_05"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Seasons"/>
+        <NamedIndividual IRI="#Season_06"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Seasons"/>
+        <NamedIndividual IRI="#Season_07"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Seasons"/>
+        <NamedIndividual IRI="#Season_08"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Seasons"/>
+        <NamedIndividual IRI="#Season_09"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Seasons"/>
+        <NamedIndividual IRI="#Season_10"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Places"/>
+        <NamedIndividual IRI="#University"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Professions"/>
+        <NamedIndividual IRI="#Waitress"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAppeared"/>
+        <NamedIndividual IRI="#Brad_Pitt"/>
+        <NamedIndividual IRI="#Season_08"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAppeared"/>
+        <NamedIndividual IRI="#Bruce_Willis"/>
+        <NamedIndividual IRI="#Season_06"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPlayed"/>
+        <NamedIndividual IRI="#Chandler_Bing"/>
+        <NamedIndividual IRI="#Matthew_Perry"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasRelationship"/>
+        <NamedIndividual IRI="#Chandler_Bing"/>
+        <NamedIndividual IRI="#Roommates"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongTo"/>
+        <NamedIndividual IRI="#Episode_001"/>
+        <NamedIndividual IRI="#Season_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongTo"/>
+        <NamedIndividual IRI="#Episode_236"/>
+        <NamedIndividual IRI="#Season_10"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPlayed"/>
+        <NamedIndividual IRI="#Gunther"/>
+        <NamedIndividual IRI="#James_Michael_Tyler"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPlayed"/>
+        <NamedIndividual IRI="#Joey_Tribbiani"/>
+        <NamedIndividual IRI="#Matt_LeBlanc"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAppeared"/>
+        <NamedIndividual IRI="#Julia_Roberts"/>
+        <NamedIndividual IRI="#Season_02"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPlayed"/>
+        <NamedIndividual IRI="#Monica_Geller"/>
+        <NamedIndividual IRI="#Courteney_Cox"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPlayed"/>
+        <NamedIndividual IRI="#Phoebe_Buffay"/>
+        <NamedIndividual IRI="#Lisa_Kudrow"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPlayed"/>
+        <NamedIndividual IRI="#Rachel_Green"/>
+        <NamedIndividual IRI="#Jennifer_Aniston"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPlayed"/>
+        <NamedIndividual IRI="#Ros_Geller"/>
+        <NamedIndividual IRI="#David_Schwimmer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAppeared"/>
+        <NamedIndividual IRI="#Sean_Penn"/>
+        <NamedIndividual IRI="#Season_08"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#duration"/>
+        <NamedIndividual IRI="#Episode_001"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">22</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#title"/>
+        <NamedIndividual IRI="#Episode_001"/>
+        <Literal>Pilot 1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#duration"/>
+        <NamedIndividual IRI="#Episode_236"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">47</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#title"/>
+        <NamedIndividual IRI="#Episode_236"/>
+        <Literal>The last one</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Matt_LeBlanc"/>
+        <Literal>Matt LeBlanc</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasChild"/>
+        <NamedIndividual IRI="#Ros_Geller"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#episodes"/>
+        <NamedIndividual IRI="#Season_01"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">24</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#year"/>
+        <NamedIndividual IRI="#Season_01"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1995</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#episodes"/>
+        <NamedIndividual IRI="#Season_10"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">18</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#year"/>
+        <NamedIndividual IRI="#Season_10"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2004</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#belongTo"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#belongTo"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasAppeared"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasPlayed"/>
+    </FunctionalObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#belongTo"/>
+        <Class IRI="#Episodes"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasAppeared"/>
+        <Class IRI="#Special_guest"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasCreated"/>
+        <Class IRI="#Creators"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasJob"/>
+        <Class IRI="#Characters"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasPlayed"/>
+        <Class IRI="#Characters"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasRelationship"/>
+        <Class IRI="#Relationship"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasStudiedIn"/>
+        <Class IRI="#Characters"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#belongTo"/>
+        <Class IRI="#Seasons"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasAppeared"/>
+        <Class IRI="#Seasons"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasCreated"/>
+        <Class IRI="#Episodes"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasJob"/>
+        <Class IRI="#Professions"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasPlayed"/>
+        <Class IRI="#Actors"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasRelationship"/>
+        <Class IRI="#Characters"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasStudiedIn"/>
+        <Class IRI="#Places"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#title"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#duration"/>
+        <Class IRI="#Episodes"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#episodes"/>
+        <Class IRI="#Seasons"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasChild"/>
+        <Class IRI="#Characters"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasDegree"/>
+        <Class IRI="#Characters"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#name"/>
+        <Class IRI="#Actors"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#title"/>
+        <Class IRI="#Episodes"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#year"/>
+        <Class IRI="#Seasons"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#duration"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#episodes"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasChild"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasDegree"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#name"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#title"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#year"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DLSafeRule>
+        <Body>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasAppeared"/>
+                <Variable IRI="urn:swrl:var#a"/>
+                <Variable IRI="urn:swrl:var#s"/>
+            </ObjectPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#Actors"/>
+                <Variable IRI="urn:swrl:var#a"/>
+            </ClassAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#Special_guest"/>
+                <Variable IRI="urn:swrl:var#g"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Body>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasStudiedIn"/>
+                <Variable IRI="urn:swrl:var#c"/>
+                <NamedIndividual IRI="#University"/>
+            </ObjectPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#Characters"/>
+                <Variable IRI="urn:swrl:var#c"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasJob"/>
+                <Variable IRI="urn:swrl:var#c"/>
+                <NamedIndividual IRI="#Paleontologist"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <DataPropertyAtom>
+                <DataProperty IRI="#hasDegree"/>
+                <Variable IRI="urn:swrl:var#c"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+            </DataPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Body>
+            <DataPropertyAtom>
+                <DataProperty IRI="#hasChild"/>
+                <Variable IRI="urn:swrl:var#c"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+            </DataPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#Characters"/>
+                <Variable IRI="urn:swrl:var#c"/>
+            </ClassAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#Parent"/>
+                <Variable IRI="urn:swrl:var#c"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Actors</IRI>
+        <Literal xml:lang="en">This class represents the actors involved in the Friends</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Actors</IRI>
+        <Literal xml:lang="en">Actors</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Characters</IRI>
+        <Literal xml:lang="en">This class represents the characters of Friends</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Characters</IRI>
+        <Literal xml:lang="en">Characters</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:sameAs"/>
+        <IRI>#Courteney_Cox</IRI>
+        <IRI>https://es.dbpedia.org/page/Courteney_Cox</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Creators</IRI>
+        <Literal xml:lang="en">This class represents the Friends creators</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Creators</IRI>
+        <Literal xml:lang="en">Creators</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:sameAs"/>
+        <IRI>#David_Schwimmer</IRI>
+        <IRI>https://es.dbpedia.org/page/David_Schwimmer</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Directors</IRI>
+        <Literal xml:lang="en">This class represents the Friends Directors</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Directors</IRI>
+        <Literal xml:lang="en">Directors</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Episodes</IRI>
+        <Literal xml:lang="en">This class represents the episodes of Friends</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Episodes</IRI>
+        <Literal xml:lang="en">Episodes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Friends</IRI>
+        <Literal xml:lang="en">This class represents the friendship relationship</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Friends</IRI>
+        <Literal xml:lang="en">Friends</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:sameAs"/>
+        <IRI>#Jennifer_Aniston</IRI>
+        <IRI>https://es.dbpedia.org/page/Jennifer_Aniston</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:sameAs"/>
+        <IRI>#Lisa_Kudrow</IRI>
+        <IRI>https://es.dbpedia.org/page/Lisa_Kudrow</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Main_actor</IRI>
+        <Literal xml:lang="en">This class represents the main actors involved in Friends</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Main_actor</IRI>
+        <Literal xml:lang="en">Main actor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Main_characters</IRI>
+        <Literal xml:lang="en">This class represents the main characters of  Friends</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Main_characters</IRI>
+        <Literal xml:lang="en">Main characters</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:sameAs"/>
+        <IRI>#Matt_LeBlanc</IRI>
+        <IRI>https://dbpedia.org/page/Matt_LeBlanc</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:sameAs"/>
+        <IRI>#Matthew_Perry</IRI>
+        <IRI>https://es.dbpedia.org/page/Matthew_Perry_(actor)</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Parent</IRI>
+        <Literal xml:lang="en">This class represents fathers or Mothers</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Parent</IRI>
+        <Literal xml:lang="en">Parent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Places</IRI>
+        <Literal xml:lang="en">This class represents the places that appear in Friends</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Places</IRI>
+        <Literal xml:lang="en">Places</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Producers</IRI>
+        <Literal xml:lang="en">This class represents the Friends Producers</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Producers</IRI>
+        <Literal xml:lang="en">Producers</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Professional</IRI>
+        <Literal xml:lang="en">This class represents the professional relationship</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Professional</IRI>
+        <Literal xml:lang="en">Professional</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Professions</IRI>
+        <Literal xml:lang="en">This class represents the profession of the characters of &apos;Friends&apos;.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Professions</IRI>
+        <Literal xml:lang="en">Profession</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Relationship</IRI>
+        <Literal xml:lang="en">This class represents the relationship between characters</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Relationship</IRI>
+        <Literal xml:lang="en">Reationship</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Screenwriter</IRI>
+        <Literal xml:lang="en">This class represents the Friends Screenwriters</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Screenwriter</IRI>
+        <Literal xml:lang="en">Screenwriter</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Seasons</IRI>
+        <Literal xml:lang="en">This class represents the seasons of Friends</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Seasons</IRI>
+        <Literal xml:lang="en">Season</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Secondary_actor</IRI>
+        <Literal xml:lang="en">This class represents the secondary actors involved in Friends</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Secondary_actor</IRI>
+        <Literal xml:lang="en">Secondary Actor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Secondary_characters</IRI>
+        <Literal xml:lang="en">This class represents the secondary characters of Friends</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Secondary_characters</IRI>
+        <Literal xml:lang="en">Secondary Characters</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Sentimental</IRI>
+        <Literal xml:lang="en">This class represents the sentimental relationship</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Sentimental</IRI>
+        <Literal xml:lang="en">Sentimental</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Sibling</IRI>
+        <Literal xml:lang="en">This class represents the sibling</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Sibling</IRI>
+        <Literal xml:lang="en">Sibling</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Special_guest</IRI>
+        <Literal xml:lang="en">This class represents the special guest involved in the TV Show</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Special_guest</IRI>
+        <Literal xml:lang="en">Special Guest</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#belongTo</IRI>
+        <Literal xml:lang="en">Such a episode belong to a sesion</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#belongTo</IRI>
+        <Literal xml:lang="en">belongTo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#duration</IRI>
+        <Literal xml:lang="en">Episode length</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#duration</IRI>
+        <Literal xml:lang="en">duration</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#episodes</IRI>
+        <Literal xml:lang="en">Number of episodes of the season</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#episodes</IRI>
+        <Literal xml:lang="en">episodes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasAppeared</IRI>
+        <Literal xml:lang="en">such a Special_guest appears in a Sesion</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasAppeared</IRI>
+        <Literal xml:lang="en">hasAppeared</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasChild</IRI>
+        <Literal xml:lang="en">A character has a Child or not</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasChild</IRI>
+        <Literal xml:lang="en">hasChild</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasCreated</IRI>
+        <Literal xml:lang="en">A Creator has created episode</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasCreated</IRI>
+        <Literal xml:lang="en">hasCreated</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasDegree</IRI>
+        <Literal xml:lang="en">A character has a degree or not</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasDegree</IRI>
+        <Literal xml:lang="en">hasDegree</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasJob</IRI>
+        <Literal xml:lang="en">What a job a character has</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasJob</IRI>
+        <Literal xml:lang="en">hasJob</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasPlayed</IRI>
+        <Literal xml:lang="en">Which actor plays a character</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasPlayed</IRI>
+        <Literal xml:lang="en">hasPlayed</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasRelationship</IRI>
+        <Literal xml:lang="en">A character has a relationship</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasRelationship</IRI>
+        <Literal xml:lang="en">hasRelationship</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasStudiedIn</IRI>
+        <Literal xml:lang="en">Such a character has studied at</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasStudiedIn</IRI>
+        <Literal>hasStudiedIn</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#name</IRI>
+        <Literal xml:lang="en">Name of actor or actress</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#name</IRI>
+        <Literal xml:lang="en">name</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#title</IRI>
+        <Literal xml:lang="en">Episode Synopsis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#title</IRI>
+        <Literal xml:lang="en">title</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#year</IRI>
+        <Literal xml:lang="en">Year of the season</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#year</IRI>
+        <Literal>year</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
