@@ -1,0 +1,1138 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#"
+     xml:base="http://www.semanticweb.org/ángel/ontologies/2022/3/friends"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+     xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:friends="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/ángel/ontologies/2022/3/friends">
+        <dc:description xml:lang="en">1.0.0</dc:description>
+        <dc:description xml:lang="en">Friends TV Show ontology</dc:description>
+        <dc:title xml:lang="en">The Friends ontology</dc:title>
+        <terms:created xml:lang="en">April 2022</terms:created>
+        <terms:creator xml:lang="en">Ángel García de la Chica Herrera</terms:creator>
+        <terms:license rdf:resource="http://creativecommons.org/licenses/by/2.0/"/>
+        <rdfs:comment xml:lang="en">Author: Angel Garcia de la Chica Herrera</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/created -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/created"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/creator -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#sameAs -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#sameAs"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#title -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#title"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#versioninfo -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2002/07/owl#versioninfo"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/ángel/ontologies/2022/3/friends#belongTo -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#belongTo">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Episodes"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Seasons"/>
+        <rdfs:comment xml:lang="en">Such a episode belong to a sesion</rdfs:comment>
+        <rdfs:label xml:lang="en">belongTo</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ángel/ontologies/2022/3/friends#hasAppeared -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#hasAppeared">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Special_guest"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Seasons"/>
+        <rdfs:comment xml:lang="en">such a Special_guest appears in a Sesion</rdfs:comment>
+        <rdfs:label xml:lang="en">hasAppeared</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ángel/ontologies/2022/3/friends#hasCreated -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#hasCreated">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Creators"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Episodes"/>
+        <rdfs:comment xml:lang="en">A Creator has created episode</rdfs:comment>
+        <rdfs:label xml:lang="en">hasCreated</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ángel/ontologies/2022/3/friends#hasJob -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#hasJob">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Characters"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Professions"/>
+        <rdfs:comment xml:lang="en">What a job a character has</rdfs:comment>
+        <rdfs:label xml:lang="en">hasJob</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ángel/ontologies/2022/3/friends#hasPlayed -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#hasPlayed">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Characters"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Actors"/>
+        <rdfs:comment xml:lang="en">Which actor plays a character</rdfs:comment>
+        <rdfs:label xml:lang="en">hasPlayed</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ángel/ontologies/2022/3/friends#hasRelationship -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#hasRelationship">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Relationship"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Characters"/>
+        <rdfs:comment xml:lang="en">A character has a relationship</rdfs:comment>
+        <rdfs:label xml:lang="en">hasRelationship</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ángel/ontologies/2022/3/friends#hasStudiedIn -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#hasStudiedIn">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Characters"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Places"/>
+        <rdfs:comment xml:lang="en">Such a character has studied at</rdfs:comment>
+        <rdfs:label>hasStudiedIn</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/ángel/ontologies/2022/3/friends#duration -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#duration">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Episodes"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:comment xml:lang="en">Episode length</rdfs:comment>
+        <rdfs:label xml:lang="en">duration</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ángel/ontologies/2022/3/friends#episodes -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#episodes">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Seasons"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:comment xml:lang="en">Number of episodes of the season</rdfs:comment>
+        <rdfs:label xml:lang="en">episodes</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ángel/ontologies/2022/3/friends#hasChild -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#hasChild">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Characters"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:comment xml:lang="en">A character has a Child or not</rdfs:comment>
+        <rdfs:label xml:lang="en">hasChild</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ángel/ontologies/2022/3/friends#hasDegree -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#hasDegree">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Characters"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:comment xml:lang="en">A character has a degree or not</rdfs:comment>
+        <rdfs:label xml:lang="en">hasDegree</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ángel/ontologies/2022/3/friends#name -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#name">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Actors"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">Name of actor or actress</rdfs:comment>
+        <rdfs:label xml:lang="en">name</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ángel/ontologies/2022/3/friends#title -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#title">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Episodes"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">Episode Synopsis</rdfs:comment>
+        <rdfs:label xml:lang="en">title</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ángel/ontologies/2022/3/friends#year -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#year">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Seasons"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:comment xml:lang="en">Year of the season</rdfs:comment>
+        <rdfs:label>year</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Actors -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Actors">
+        <rdfs:comment xml:lang="en">This class represents the actors involved in the Friends</rdfs:comment>
+        <rdfs:label xml:lang="en">Actors</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Characters -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Characters">
+        <rdfs:comment xml:lang="en">This class represents the characters of Friends</rdfs:comment>
+        <rdfs:label xml:lang="en">Characters</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Creators -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Creators">
+        <rdfs:comment xml:lang="en">This class represents the Friends creators</rdfs:comment>
+        <rdfs:label xml:lang="en">Creators</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Directors -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Directors">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Creators"/>
+        <rdfs:comment xml:lang="en">This class represents the Friends Directors</rdfs:comment>
+        <rdfs:label xml:lang="en">Directors</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Episodes -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Episodes">
+        <rdfs:comment xml:lang="en">This class represents the episodes of Friends</rdfs:comment>
+        <rdfs:label xml:lang="en">Episodes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Friends -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Friends">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Relationship"/>
+        <rdfs:comment xml:lang="en">This class represents the friendship relationship</rdfs:comment>
+        <rdfs:label xml:lang="en">Friends</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Main_actor -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Main_actor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Actors"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Secondary_actor"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Special_guest"/>
+        <rdfs:comment xml:lang="en">This class represents the main actors involved in Friends</rdfs:comment>
+        <rdfs:label xml:lang="en">Main actor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Main_characters -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Main_characters">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Characters"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Secondary_characters"/>
+        <rdfs:comment xml:lang="en">This class represents the main characters of  Friends</rdfs:comment>
+        <rdfs:label xml:lang="en">Main characters</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Parent -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Parent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Relationship"/>
+        <rdfs:comment xml:lang="en">This class represents fathers or Mothers</rdfs:comment>
+        <rdfs:label xml:lang="en">Parent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Places -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Places">
+        <rdfs:comment xml:lang="en">This class represents the places that appear in Friends</rdfs:comment>
+        <rdfs:label xml:lang="en">Places</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Producers -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Producers">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Creators"/>
+        <rdfs:comment xml:lang="en">This class represents the Friends Producers</rdfs:comment>
+        <rdfs:label xml:lang="en">Producers</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Professional -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Professional">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Relationship"/>
+        <rdfs:comment xml:lang="en">This class represents the professional relationship</rdfs:comment>
+        <rdfs:label xml:lang="en">Professional</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Professions -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Professions">
+        <rdfs:comment xml:lang="en">This class represents the profession of the characters of &apos;Friends&apos;.</rdfs:comment>
+        <rdfs:label xml:lang="en">Profession</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Relationship -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Relationship">
+        <rdfs:comment xml:lang="en">This class represents the relationship between characters</rdfs:comment>
+        <rdfs:label xml:lang="en">Reationship</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Screenwriter -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Screenwriter">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Creators"/>
+        <rdfs:comment xml:lang="en">This class represents the Friends Screenwriters</rdfs:comment>
+        <rdfs:label xml:lang="en">Screenwriter</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Seasons -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Seasons">
+        <rdfs:comment xml:lang="en">This class represents the seasons of Friends</rdfs:comment>
+        <rdfs:label xml:lang="en">Season</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Secondary_actor -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Secondary_actor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Actors"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Special_guest"/>
+        <rdfs:comment xml:lang="en">This class represents the secondary actors involved in Friends</rdfs:comment>
+        <rdfs:label xml:lang="en">Secondary Actor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Secondary_characters -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Secondary_characters">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Characters"/>
+        <rdfs:comment xml:lang="en">This class represents the secondary characters of Friends</rdfs:comment>
+        <rdfs:label xml:lang="en">Secondary Characters</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Sentimental -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Sentimental">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Relationship"/>
+        <rdfs:comment xml:lang="en">This class represents the sentimental relationship</rdfs:comment>
+        <rdfs:label xml:lang="en">Sentimental</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Sibling -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Sibling">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Relationship"/>
+        <rdfs:comment xml:lang="en">This class represents the sibling</rdfs:comment>
+        <rdfs:label xml:lang="en">Sibling</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Special_guest -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Special_guest">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Actors"/>
+        <rdfs:comment xml:lang="en">This class represents the special guest involved in the TV Show</rdfs:comment>
+        <rdfs:label xml:lang="en">Special Guest</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Actor -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Actor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Professions"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Brad_Pitt -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Brad_Pitt">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Special_guest"/>
+        <hasAppeared rdf:resource="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Season_08"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Bruce_Willis -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Bruce_Willis">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Special_guest"/>
+        <hasAppeared rdf:resource="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Season_06"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ángel/ontologies/2022/3/friends#CentralPerk -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#CentralPerk">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Places"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Chandler_Bing -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Chandler_Bing">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Main_characters"/>
+        <hasPlayed rdf:resource="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Matthew_Perry"/>
+        <hasRelationship rdf:resource="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Roommates"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Cook -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Cook">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Professions"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Couple -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Couple">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Sentimental"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Courteney_Cox -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Courteney_Cox">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Main_actor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Coworkers -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Coworkers">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Professional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ángel/ontologies/2022/3/friends#David_Crane -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#David_Crane">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Producers"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ángel/ontologies/2022/3/friends#David_Schwimmer -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#David_Schwimmer">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Main_actor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Episode_001 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Episode_001">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Episodes"/>
+        <belongTo rdf:resource="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Season_01"/>
+        <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</duration>
+        <title>Pilot 1</title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Episode_236 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Episode_236">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Episodes"/>
+        <belongTo rdf:resource="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Season_10"/>
+        <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">47</duration>
+        <title>The last one</title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Gary_Halvorson -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Gary_Halvorson">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Directors"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Gunther -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Gunther">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Secondary_characters"/>
+        <hasPlayed rdf:resource="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#James_Michael_Tyler"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ángel/ontologies/2022/3/friends#IT_procurement_manager -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#IT_procurement_manager">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Professions"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Institute -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Institute">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Places"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ángel/ontologies/2022/3/friends#James_Michael_Tyler -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#James_Michael_Tyler">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Secondary_actor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Jennifer_Aniston -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Jennifer_Aniston">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Main_actor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Joey_Tribbiani -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Joey_Tribbiani">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Main_characters"/>
+        <hasPlayed rdf:resource="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Matt_LeBlanc"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Julia_Roberts -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Julia_Roberts">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Special_guest"/>
+        <hasAppeared rdf:resource="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Season_02"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Lisa_Kudrow -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Lisa_Kudrow">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Main_actor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Marta_Kauffman -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Marta_Kauffman">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Screenwriter"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Masseuse -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Masseuse">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Professions"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Matt_LeBlanc -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Matt_LeBlanc">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Main_actor"/>
+        <name>Matt LeBlanc</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Matthew_Perry -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Matthew_Perry">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Main_actor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Monica_Geller -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Monica_Geller">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Main_characters"/>
+        <hasPlayed rdf:resource="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Courteney_Cox"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Paleontologist -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Paleontologist">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Professions"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Phoebe_Buffay -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Phoebe_Buffay">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Main_characters"/>
+        <hasPlayed rdf:resource="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Lisa_Kudrow"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Rachel_Green -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Rachel_Green">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Main_characters"/>
+        <hasPlayed rdf:resource="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Jennifer_Aniston"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Roommates -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Roommates">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Friends"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Ros_Geller -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Ros_Geller">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Main_characters"/>
+        <hasPlayed rdf:resource="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#David_Schwimmer"/>
+        <hasChild rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</hasChild>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Sean_Penn -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Sean_Penn">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Special_guest"/>
+        <hasAppeared rdf:resource="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Season_08"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Season_01 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Season_01">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Seasons"/>
+        <episodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</episodes>
+        <year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1995</year>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Season_02 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Season_02">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Seasons"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Season_03 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Season_03">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Seasons"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Season_04 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Season_04">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Seasons"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Season_05 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Season_05">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Seasons"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Season_06 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Season_06">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Seasons"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Season_07 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Season_07">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Seasons"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Season_08 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Season_08">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Seasons"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Season_09 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Season_09">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Seasons"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Season_10 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Season_10">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Seasons"/>
+        <episodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</episodes>
+        <year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2004</year>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ángel/ontologies/2022/3/friends#University -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#University">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Places"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Waitress -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Waitress">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Professions"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Rules
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <rdf:Description rdf:about="urn:swrl:var#a">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="urn:swrl:var#s">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="urn:swrl:var#g">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="urn:swrl:var#c">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#hasAppeared"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#a"/>
+                        <swrl:argument2 rdf:resource="urn:swrl:var#s"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                <swrl:classPredicate rdf:resource="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Actors"/>
+                                <swrl:argument1 rdf:resource="urn:swrl:var#a"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Special_guest"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#g"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#hasChild"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#c"/>
+                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrl:argument2>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                <swrl:classPredicate rdf:resource="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Characters"/>
+                                <swrl:argument1 rdf:resource="urn:swrl:var#c"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Parent"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#c"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#hasStudiedIn"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#c"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#University"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                <swrl:classPredicate rdf:resource="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Characters"/>
+                                <swrl:argument1 rdf:resource="urn:swrl:var#c"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#hasJob"/>
+                                        <swrl:argument1 rdf:resource="urn:swrl:var#c"/>
+                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Paleontologist"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/ángel/ontologies/2022/3/friends#hasDegree"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#c"/>
+                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrl:argument2>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/ -->
+
+

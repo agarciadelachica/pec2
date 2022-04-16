@@ -1,0 +1,1092 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid5"
+    }, {
+      "@id" : "_:genid3"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid7"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid10",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#c"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Paleontologist"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#hasJob"
+  } ]
+}, {
+  "@id" : "_:genid12",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#c"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Characters"
+  } ]
+}, {
+  "@id" : "_:genid14",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#c"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#University"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#hasStudiedIn"
+  } ]
+}, {
+  "@id" : "_:genid16",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#c"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#hasDegree"
+  } ]
+}, {
+  "@id" : "_:genid17",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid21"
+    }, {
+      "@id" : "_:genid19"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid23"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid19",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#c"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Characters"
+  } ]
+}, {
+  "@id" : "_:genid21",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#c"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#hasChild"
+  } ]
+}, {
+  "@id" : "_:genid23",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#c"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Parent"
+  } ]
+}, {
+  "@id" : "_:genid3",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#a"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Actors"
+  } ]
+}, {
+  "@id" : "_:genid5",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#a"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#s"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#hasAppeared"
+  } ]
+}, {
+  "@id" : "_:genid7",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#g"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Special_guest"
+  } ]
+}, {
+  "@id" : "_:genid8",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid14"
+    }, {
+      "@id" : "_:genid12"
+    }, {
+      "@id" : "_:genid10"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid16"
+    } ]
+  } ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/description",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/title",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/created",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/creator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/license",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://purl.org/dc/elements/1.1/description" : [ {
+    "@language" : "en",
+    "@value" : "1.0.0"
+  }, {
+    "@language" : "en",
+    "@value" : "Friends TV Show ontology"
+  } ],
+  "http://purl.org/dc/elements/1.1/title" : [ {
+    "@language" : "en",
+    "@value" : "The Friends ontology"
+  } ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@language" : "en",
+    "@value" : "April 2022"
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@language" : "en",
+    "@value" : "Ángel García de la Chica Herrera"
+  } ],
+  "http://purl.org/dc/terms/license" : [ {
+    "@id" : "http://creativecommons.org/licenses/by/2.0/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Author: Angel Garcia de la Chica Herrera"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Actor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Professions"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Actors",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This class represents the actors involved in the Friends"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Actors"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Brad_Pitt",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#hasAppeared" : [ {
+    "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Season_08"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Special_guest"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Bruce_Willis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#hasAppeared" : [ {
+    "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Season_06"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Special_guest"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#CentralPerk",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Places"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Chandler_Bing",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#hasPlayed" : [ {
+    "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Matthew_Perry"
+  } ],
+  "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#hasRelationship" : [ {
+    "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Roommates"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Main_characters"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Characters",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This class represents the characters of Friends"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Characters"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Cook",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Professions"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Couple",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Sentimental"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Courteney_Cox",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Main_actor"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Coworkers",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Professional"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Creators",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This class represents the Friends creators"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Creators"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#David_Crane",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Producers"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#David_Schwimmer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Main_actor"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Directors",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This class represents the Friends Directors"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Directors"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Creators"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Episode_001",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#belongTo" : [ {
+    "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Season_01"
+  } ],
+  "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#duration" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "22"
+  } ],
+  "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#title" : [ {
+    "@value" : "Pilot 1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Episodes"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Episode_236",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#belongTo" : [ {
+    "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Season_10"
+  } ],
+  "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#duration" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "47"
+  } ],
+  "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#title" : [ {
+    "@value" : "The last one"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Episodes"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Episodes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This class represents the episodes of Friends"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Episodes"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Friends",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This class represents the friendship relationship"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Friends"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Relationship"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Gary_Halvorson",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Directors"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Gunther",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#hasPlayed" : [ {
+    "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#James_Michael_Tyler"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Secondary_characters"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#IT_procurement_manager",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Professions"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Institute",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Places"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#James_Michael_Tyler",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Secondary_actor"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Jennifer_Aniston",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Main_actor"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Joey_Tribbiani",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#hasPlayed" : [ {
+    "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Matt_LeBlanc"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Main_characters"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Julia_Roberts",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#hasAppeared" : [ {
+    "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Season_02"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Special_guest"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Lisa_Kudrow",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Main_actor"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Main_actor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This class represents the main actors involved in Friends"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Main actor"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Actors"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Secondary_actor"
+  }, {
+    "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Special_guest"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Main_characters",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This class represents the main characters of  Friends"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Main characters"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Characters"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Secondary_characters"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Marta_Kauffman",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Screenwriter"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Masseuse",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Professions"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Matt_LeBlanc",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#name" : [ {
+    "@value" : "Matt LeBlanc"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Main_actor"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Matthew_Perry",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Main_actor"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Monica_Geller",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#hasPlayed" : [ {
+    "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Courteney_Cox"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Main_characters"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Paleontologist",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Professions"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Parent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This class represents fathers or Mothers"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Parent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Relationship"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Phoebe_Buffay",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#hasPlayed" : [ {
+    "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Lisa_Kudrow"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Main_characters"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Places",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This class represents the places that appear in Friends"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Places"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Producers",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This class represents the Friends Producers"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Producers"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Creators"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Professional",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This class represents the professional relationship"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Professional"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Relationship"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Professions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This class represents the profession of the characters of 'Friends'."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Profession"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Rachel_Green",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#hasPlayed" : [ {
+    "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Jennifer_Aniston"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Main_characters"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Relationship",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This class represents the relationship between characters"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Reationship"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Roommates",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Friends"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Ros_Geller",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#hasChild" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#hasPlayed" : [ {
+    "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#David_Schwimmer"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Main_characters"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Screenwriter",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This class represents the Friends Screenwriters"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Screenwriter"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Creators"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Sean_Penn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#hasAppeared" : [ {
+    "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Season_08"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Special_guest"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Season_01",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#episodes" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "24"
+  } ],
+  "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#year" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1995"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Seasons"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Season_02",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Seasons"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Season_03",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Seasons"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Season_04",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Seasons"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Season_05",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Seasons"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Season_06",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Seasons"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Season_07",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Seasons"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Season_08",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Seasons"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Season_09",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Seasons"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Season_10",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#episodes" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "18"
+  } ],
+  "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#year" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "2004"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Seasons"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Seasons",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This class represents the seasons of Friends"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Season"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Secondary_actor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This class represents the secondary actors involved in Friends"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Secondary Actor"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Actors"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Special_guest"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Secondary_characters",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This class represents the secondary characters of Friends"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Secondary Characters"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Characters"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Sentimental",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This class represents the sentimental relationship"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Sentimental"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Relationship"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Sibling",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This class represents the sibling"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Sibling"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Relationship"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Special_guest",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This class represents the special guest involved in the TV Show"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Special Guest"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Actors"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#University",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Places"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Waitress",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Professions"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#belongTo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Such a episode belong to a sesion"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Episodes"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "belongTo"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Seasons"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#duration",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Episode length"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Episodes"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "duration"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#int"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#episodes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Number of episodes of the season"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Seasons"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "episodes"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#int"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#hasAppeared",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "such a Special_guest appears in a Sesion"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Special_guest"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hasAppeared"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Seasons"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#hasChild",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A character has a Child or not"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Characters"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hasChild"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#hasCreated",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A Creator has created episode"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Creators"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hasCreated"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Episodes"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#hasDegree",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A character has a degree or not"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Characters"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hasDegree"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#hasJob",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "What a job a character has"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Characters"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hasJob"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Professions"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#hasPlayed",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Which actor plays a character"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Characters"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hasPlayed"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Actors"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#hasRelationship",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A character has a relationship"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Relationship"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hasRelationship"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Characters"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#hasStudiedIn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Such a character has studied at"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Characters"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "hasStudiedIn"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Places"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Name of actor or actress"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Actors"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "name"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#title",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Episode Synopsis"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Episodes"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "title"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#year",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Year of the season"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Seasons"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "year"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#int"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2000/01/rdf-schema#sameAs",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2000/01/rdf-schema#title",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2002/07/owl#versioninfo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "urn:swrl:var#a",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+}, {
+  "@id" : "urn:swrl:var#c",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+}, {
+  "@id" : "urn:swrl:var#g",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+}, {
+  "@id" : "urn:swrl:var#s",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+} ]
