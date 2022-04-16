@@ -1,0 +1,154 @@
+{
+  "@context" : {
+    "Main_characters" : {
+      "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Main_characters"
+    },
+    "Sibling" : {
+      "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Sibling"
+    },
+    "Parent" : {
+      "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Parent"
+    },
+    "created" : {
+      "@id" : "http://purl.org/dc/terms/created"
+    },
+    "Relationship" : {
+      "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Relationship"
+    },
+    "license" : {
+      "@id" : "http://purl.org/dc/terms/license"
+    },
+    "topDataProperty" : {
+      "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+    },
+    "Episodes" : {
+      "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Episodes"
+    },
+    "Professional" : {
+      "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Professional"
+    },
+    "Characters" : {
+      "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Characters"
+    },
+    "episodes" : {
+      "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#episodes",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "Main_actor" : {
+      "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Main_actor"
+    },
+    "Secondary_characters" : {
+      "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Secondary_characters"
+    },
+    "hasAppeared" : {
+      "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#hasAppeared",
+      "@type" : "@id"
+    },
+    "hasDegree" : {
+      "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#hasDegree",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "Places" : {
+      "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Places"
+    },
+    "hasCreated" : {
+      "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#hasCreated",
+      "@type" : "@id"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/terms/creator"
+    },
+    "name" : {
+      "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#name",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "topObjectProperty" : {
+      "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty",
+      "@type" : "@id"
+    },
+    "Directors" : {
+      "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Directors"
+    },
+    "Screenwriter" : {
+      "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Screenwriter"
+    },
+    "Producers" : {
+      "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Producers"
+    },
+    "hasRelationship" : {
+      "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#hasRelationship",
+      "@type" : "@id"
+    },
+    "Special_guest" : {
+      "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Special_guest"
+    },
+    "Friends" : {
+      "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Friends"
+    },
+    "Creators" : {
+      "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Creators"
+    },
+    "duration" : {
+      "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#duration",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "title" : {
+      "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#title",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Actors" : {
+      "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Actors"
+    },
+    "year" : {
+      "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#year",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "versioninfo" : {
+      "@id" : "http://www.w3.org/2002/07/owl#versioninfo"
+    },
+    "Sentimental" : {
+      "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Sentimental"
+    },
+    "Seasons" : {
+      "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Seasons"
+    },
+    "Professions" : {
+      "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Professions"
+    },
+    "hasPlayed" : {
+      "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#hasPlayed",
+      "@type" : "@id"
+    },
+    "sameAs" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#sameAs"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "belongTo" : {
+      "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#belongTo",
+      "@type" : "@id"
+    },
+    "hasStudiedIn" : {
+      "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#hasStudiedIn",
+      "@type" : "@id"
+    },
+    "Secondary_actor" : {
+      "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#Secondary_actor"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "hasJob" : {
+      "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#hasJob",
+      "@type" : "@id"
+    },
+    "hasChild" : {
+      "@id" : "http://www.semanticweb.org/ángel/ontologies/2022/3/friends#hasChild",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    }
+  }
+}
